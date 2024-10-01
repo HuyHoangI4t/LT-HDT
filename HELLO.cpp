@@ -121,7 +121,7 @@ void bai13() {
 
 void bai14() {
     int count = 0;
-    cout << "10 so chinh phuong dau tien:\n";
+    cout << "\n10 so chinh phuong dau tien:\n";
     for (int i = 0; count < 10; i++) {
         if (bai11(i)) {
             cout << i << "\t";
@@ -181,6 +181,9 @@ void bai19(float x1, float y1, float x2, float y2, float x3, float y3) {
 }
 
 void bai20(float x1, float y1, float x2, float y2, float x3, float y3) {
+    nhaptoado(x1, y1);
+    nhaptoado(x2, y2);
+    nhaptoado(x3, y3);
     float AB = dodai(x1, y1, x2, y2);
     float BC = dodai(x2, y2, x3, y3);
     float CA = dodai(x3, y3, x1, y1);
