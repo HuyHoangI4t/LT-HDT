@@ -1,0 +1,2 @@
+# codethieunhi
+lấy = cre
